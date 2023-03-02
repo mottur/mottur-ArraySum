@@ -8,7 +8,7 @@ public class ArraySum {
      */
     public int sum(int[] arr){
         int sum = 0;
-        for (int i : arr) {
+        for(int i : arr) {
             sum += i;
         }
         return sum;
